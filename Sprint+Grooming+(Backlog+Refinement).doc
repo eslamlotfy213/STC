@@ -1,0 +1,411 @@
+Date: Mon, 3 Mar 2025 13:45:51 +0300 (AST)
+Message-ID: <336346932.531.1740998751146@ECAOEAPPPL0008.stc.corp>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_530_313827113.1740998751145"
+
+------=_Part_530_313827113.1740998751145
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Sprint Grooming (Backlog Refinement)</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Sprint Grooming (Backlog Refinement)</h1>
+    <div class=3D"Section1">
+        <h2 id=3D"SprintGrooming(BacklogRefinement)-WhatisSprintGrooming(Ba=
+cklogRefinement)?">What is Sprint Grooming (Backlog Refinement)?</h2>
+<p>Sprint Grooming, also known as Backlog Refinement, is a key activity in =
+the Scrum framework that ensures the Product Backlog is well-defined, prior=
+itized, and ready for upcoming sprints. This process helps the development =
+team understand, clarify, and estimate user stories before Sprint Planning,=
+ leading to a more efficient sprint execution.</p>
+<h3 id=3D"SprintGrooming(BacklogRefinement)-ObjectivesofSprintGrooming">Obj=
+ectives of Sprint Grooming</h3>
+<ul>
+<li>Ensure backlog items are clearly defined, refined, and estimated.</li>
+<li>Identify dependencies and risks before sprint execution.</li>
+<li>Break down large stories into smaller, manageable tasks.</li>
+<li>Prioritize work based on business needs and team capacity.</li>
+<li>Improve efficiency in Sprint Planning by having pre-groomed items ready=
+.</li>
+</ul>
+<h2 id=3D"SprintGrooming(BacklogRefinement)-WhoAttendsSprintGrooming?">Who =
+Attends Sprint Grooming?</h2>
+<p>Sprint Grooming is typically attended by:</p>
+<ul>
+<li><strong>Product Owner</strong>: Ensures the backlog items align with bu=
+siness priorities.</li>
+<li><strong>Scrum Master</strong>: Facilitates the meeting and ensures adhe=
+rence to Agile best practices.</li>
+<li><strong>Development Team</strong>: Engages in discussions, asks questio=
+ns, and estimates effort.</li>
+<li><strong>Stakeholders (Optional)</strong>: May provide input on business=
+ needs or technical feasibility.</li>
+</ul>
+<h2 id=3D"SprintGrooming(BacklogRefinement)-WhenDoesSprintGroomingHappen?">=
+When Does Sprint Grooming Happen?</h2>
+<ul>
+<li>Grooming sessions are held regularly, usually <strong>once per sprint</=
+strong>.</li>
+<li>Ideally conducted <strong>midway through the current sprint</strong>, e=
+nsuring the next sprint has well-defined backlog items.</li>
+<li>Duration varies based on team size and complexity, typically <strong>30=
+ minutes to 1 hour per week</strong>.</li>
+</ul>
+<h2 id=3D"SprintGrooming(BacklogRefinement)-KeyActivitiesinSprintGrooming">=
+Key Activities in Sprint Grooming</h2>
+<h3 id=3D"SprintGrooming(BacklogRefinement)-1.ReviewingBacklogItems">1. Rev=
+iewing Backlog Items</h3>
+<ul>
+<li>The team reviews backlog items (user stories, tasks, bugs, etc.).</li>
+<li>Product Owner clarifies requirements and business priorities.</li>
+</ul>
+<h3 id=3D"SprintGrooming(BacklogRefinement)-2.RefiningUserStories">2. Refin=
+ing User Stories</h3>
+<ul>
+<li>Ensure each backlog item follows the <strong>INVEST principle</strong>:=
+=20
+<ul>
+<li><strong>Independent</strong>: Can be developed separately.</li>
+<li><strong>Negotiable</strong>: Open for discussion and refinement.</li>
+<li><strong>Valuable</strong>: Provides business value.</li>
+<li><strong>Estimable</strong>: Can be estimated in terms of effort.</li>
+<li><strong>Small</strong>: Can be completed within a sprint.</li>
+<li><strong>Testable</strong>: Has clear acceptance criteria.</li>
+</ul></li>
+</ul>
+<h3 id=3D"SprintGrooming(BacklogRefinement)-3.AddingAcceptanceCriteria">3. =
+Adding Acceptance Criteria</h3>
+<ul>
+<li>Define clear <strong>Acceptance Criteria</strong> to ensure shared unde=
+rstanding.</li>
+<li>Example:=20
+<ul>
+<li>Given I am a logged-in user</li>
+<li>When I add an item to the cart</li>
+<li>Then I should see the item in my cart summary</li>
+</ul></li>
+</ul>
+<h3 id=3D"SprintGrooming(BacklogRefinement)-4.SplittingLargeStories">4. Spl=
+itting Large Stories</h3>
+<ul>
+<li>Break down <strong>epics</strong> or large stories into smaller, manage=
+able tasks.</li>
+<li>Example:=20
+<ul>
+<li><strong>Epic</strong>: "Implement user authentication"=20
+<ul>
+<li><strong>Story 1</strong>: "User can sign up with email and password"</l=
+i>
+<li><strong>Story 2</strong>: "User can log in with credentials"</li>
+<li><strong>Story 3</strong>: "User can reset password"</li>
+</ul></li>
+</ul></li>
+</ul>
+<h3 id=3D"SprintGrooming(BacklogRefinement)-5.EstimatingEffort">5. Estimati=
+ng Effort</h3>
+<ul>
+<li>The team estimates the effort required using techniques like:=20
+<ul>
+<li><strong>Planning Poker</strong> (relative estimation using Fibonacci se=
+quence).</li>
+<li><strong>T-shirt Sizing</strong> (Small, Medium, Large, XL).</li>
+<li><strong>Story Points</strong> (assigning numerical effort values).</li>
+</ul></li>
+</ul>
+<h3 id=3D"SprintGrooming(BacklogRefinement)-6.IdentifyingDependencies&amp;R=
+isks">6. Identifying Dependencies &amp; Risks</h3>
+<ul>
+<li>Discuss technical dependencies between tasks.</li>
+<li>Identify risks that may impact delivery and plan mitigations.</li>
+</ul>
+<h3 id=3D"SprintGrooming(BacklogRefinement)-7.PrioritizingBacklogItems">7. =
+Prioritizing Backlog Items</h3>
+<ul>
+<li>Product Owner prioritizes stories based on business value and urgency.<=
+/li>
+<li>Consider <strong>MoSCoW Method</strong>:=20
+<ul>
+<li><strong>Must Have</strong> =E2=80=93 Critical features.</li>
+<li><strong>Should Have</strong> =E2=80=93 Important but not urgent.</li>
+<li><strong>Could Have</strong> =E2=80=93 Nice to have.</li>
+<li><strong>Won=E2=80=99t Have</strong> =E2=80=93 Deferred for future relea=
+ses.</li>
+</ul></li>
+</ul>
+<h2 id=3D"SprintGrooming(BacklogRefinement)-BenefitsofSprintGrooming">Benef=
+its of Sprint Grooming</h2>
+<ul>
+<li><strong>Efficient Sprint Planning</strong>: Ensures well-prepared stori=
+es for discussion.</li>
+<li><strong>Reduced Ambiguity</strong>: Clearer understanding of requiremen=
+ts before development.</li>
+<li><strong>Improved Estimation</strong>: More accurate effort estimation l=
+eads to better capacity planning.</li>
+<li><strong>Higher Quality Deliverables</strong>: Refinement ensures well-d=
+efined, testable stories.</li>
+</ul>
+<h2 id=3D"SprintGrooming(BacklogRefinement)-CommonChallenges&amp;HowtoAddre=
+ssThem">Common Challenges &amp; How to Address Them</h2>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<thead class=3D"">
+<tr class=3D"">
+<th class=3D"confluenceTh">Challenge</th>
+<th class=3D"confluenceTh">Solution</th>
+</tr>
+</thead>
+<tbody class=3D"">
+<tr class=3D"">
+<td class=3D"confluenceTd">Lack of participation</td>
+<td class=3D"confluenceTd">Encourage active engagement and set clear expect=
+ations.</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">Vague requirements</td>
+<td class=3D"confluenceTd">Product Owner should provide clear descriptions =
+and acceptance criteria.</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">Overloading backlog</td>
+<td class=3D"confluenceTd">Regularly prioritize and remove outdated items.<=
+/td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">Estimation difficulties</td>
+<td class=3D"confluenceTd">Use Planning Poker or other techniques to achiev=
+e consensus.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"SprintGrooming(BacklogRefinement)-Conclusion">Conclusion</h2>
+<p>Sprint Grooming is an essential activity in Scrum that helps teams stay =
+aligned, plan effectively, and improve delivery efficiency. By refining bac=
+klog items before Sprint Planning, teams can ensure a smooth development cy=
+cle, reduce uncertainty, and focus on delivering high-quality software effi=
+ciently.</p>
+    </div>
+</body>
+</html>
+------=_Part_530_313827113.1740998751145--

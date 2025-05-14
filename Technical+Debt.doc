@@ -1,0 +1,808 @@
+Date: Mon, 3 Mar 2025 13:47:42 +0300 (AST)
+Message-ID: <594709491.539.1740998862305@ECAOEAPPPL0008.stc.corp>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_538_274961444.1740998862304"
+
+------=_Part_538_274961444.1740998862304
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Technical Debt</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Technical Debt</h1>
+    <div class=3D"Section1">
+        <p><strong>What is technical Debt?</strong></p>
+<p><span style=3D"color: rgb(68,85,102);">Technical debt (also known as tec=
+h debt or code debt) describes what results when development teams take act=
+ions to expedite the delivery of a piece of functionality or a project whic=
+h later needs to be refactored. In other words, it=E2=80=99s the result of =
+prioritizing speedy delivery over perfect code.</span></p>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<p class=3D"title conf-macro-render">An accedemic definition of technical d=
+ebt</p><span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-=
+information-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><span style=3D"color: rgb(68,85,102);">Technical debt describes the cons=
+equences of software development actions that intentionally or unintentiona=
+lly<span>&nbsp;</span></span><a class=3D"external-link" href=3D"https://www=
+.productplan.com/product-management-frameworks/" rel=3D"nofollow">prioritiz=
+e</a><span style=3D"color: rgb(68,85,102);"><span>&nbsp;</span>client value=
+ and/or project constraints such as delivery deadlines, over more technical=
+ implementation, and design considerations</span>"</p>
+</div>
+</div>
+<p><br></p>
+<p><strong>Frontend</strong></p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 99.=
+8354%;">
+<colgroup>
+<col style=3D"width: 13.4696%;">
+<col style=3D"width: 32.7119%;">
+<col style=3D"width: 15.2839%;">
+<col style=3D"width: 8.52158%;">
+<col style=3D"width: 8.02678%;">
+<col style=3D"width: 21.9863%;">
+</colgroup>
+<tbody>
+<tr>
+<th scope=3D"col" style=3D"vertical-align: middle;" class=3D"confluenceTh">=
+Summary</th>
+<th scope=3D"col" style=3D"vertical-align: middle;" class=3D"confluenceTh">=
+Description</th>
+<th scope=3D"col" style=3D"text-align: center;vertical-align: middle;" clas=
+s=3D"confluenceTh">Assignee</th>
+<th scope=3D"col" style=3D"text-align: center;vertical-align: middle;" clas=
+s=3D"confluenceTh">Status</th>
+<th scope=3D"col" style=3D"text-align: center;vertical-align: middle;" clas=
+s=3D"confluenceTh">Priority</th>
+<th scope=3D"col" style=3D"vertical-align: middle;" class=3D"confluenceTh">=
+Linked Tickets (Task, Story, CCR)</th>
+</tr>
+<tr>
+<td style=3D"vertical-align: middle;" class=3D"confluenceTd">Update angular=
+ to the latest version</td>
+<td style=3D"vertical-align: middle;" class=3D"confluenceTd"><br></td>
+<td style=3D"text-align: center;vertical-align: middle;" class=3D"confluenc=
+eTd">
+<div class=3D"content-wrapper">
+<p><a class=3D"confluence-userlink user-mention" data-username=3D"awamuhamm=
+ad" href=3D"/wiki/display/~awamuhammad" data-linked-resource-id=3D"10561845=
+0" data-linked-resource-version=3D"1" data-linked-resource-type=3D"userinfo=
+" data-base-url=3D"https://dm.stc.com.sa/wiki">Awais Ashraf Muhammad</a></p=
+>
+</div></td>
+<td style=3D"text-align: center;vertical-align: middle;" class=3D"confluenc=
+eTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-subtle">OPEN</span><=
+/p>
+</div></td>
+<td style=3D"text-align: center;vertical-align: middle;" class=3D"confluenc=
+eTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+</div></td>
+<td style=3D"vertical-align: middle;" class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td style=3D"vertical-align: middle;" class=3D"confluenceTd">Implement CI/C=
+D for deployments</td>
+<td style=3D"vertical-align: middle;" class=3D"confluenceTd"><br></td>
+<td style=3D"text-align: center;vertical-align: middle;" class=3D"confluenc=
+eTd">
+<div class=3D"content-wrapper">
+<p><a class=3D"confluence-userlink user-mention" data-username=3D"awamuhamm=
+ad" href=3D"/wiki/display/~awamuhammad" data-linked-resource-id=3D"10561845=
+0" data-linked-resource-version=3D"1" data-linked-resource-type=3D"userinfo=
+" data-base-url=3D"https://dm.stc.com.sa/wiki">Awais Ashraf Muhammad</a>&nb=
+sp;</p>
+</div></td>
+<td style=3D"text-align: center;vertical-align: middle;" class=3D"confluenc=
+eTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-subtle">OPEN</span><=
+/p>
+</div></td>
+<td style=3D"text-align: center;vertical-align: middle;" class=3D"confluenc=
+eTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+</div></td>
+<td style=3D"vertical-align: middle;" class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td style=3D"vertical-align: middle;" class=3D"confluenceTd">Revamp tables =
+on the UI. Suggestions ( Syncfusion, Ag Grid)</td>
+<td style=3D"vertical-align: middle;" class=3D"confluenceTd"><br></td>
+<td style=3D"text-align: center;vertical-align: middle;" class=3D"confluenc=
+eTd">
+<div class=3D"content-wrapper">
+<p><a class=3D"confluence-userlink user-mention" data-username=3D"awamuhamm=
+ad" href=3D"/wiki/display/~awamuhammad" data-linked-resource-id=3D"10561845=
+0" data-linked-resource-version=3D"1" data-linked-resource-type=3D"userinfo=
+" data-base-url=3D"https://dm.stc.com.sa/wiki">Awais Ashraf Muhammad</a> <a=
+ class=3D"confluence-userlink user-mention" data-username=3D"malemoor" href=
+=3D"/wiki/display/~malemoor" data-linked-resource-id=3D"112666238" data-lin=
+ked-resource-version=3D"1" data-linked-resource-type=3D"userinfo" data-base=
+-url=3D"https://dm.stc.com.sa/wiki">Mohammad Ali Mohammad Alemoor</a>&nbsp;=
+</p>
+</div></td>
+<td style=3D"text-align: center;vertical-align: middle;" class=3D"confluenc=
+eTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-subtle">OPEN</span><=
+/p>
+</div></td>
+<td style=3D"text-align: center;vertical-align: middle;" class=3D"confluenc=
+eTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+</div></td>
+<td style=3D"vertical-align: middle;" class=3D"confluenceTd"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<p><strong>Backend</strong></p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 100=
+.0%;">
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 13.2279%;">
+<col style=3D"width: 33.0972%;">
+<col class=3D"" style=3D"width: 15.149%;">
+<col class=3D"" style=3D"width: 8.67224%;">
+<col style=3D"width: 7.90382%;">
+<col class=3D"" style=3D"width: 21.9498%;">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<th style=3D"vertical-align: middle;" class=3D"confluenceTh">Summary</th>
+<th style=3D"vertical-align: middle;" class=3D"confluenceTh">Description</t=
+h>
+<th style=3D"text-align: center;vertical-align: middle;" class=3D"confluenc=
+eTh">Assignee</th>
+<th style=3D"text-align: center;vertical-align: middle;" class=3D"confluenc=
+eTh">Status</th>
+<th style=3D"text-align: center;vertical-align: middle;" class=3D"confluenc=
+eTh">Priority</th>
+<th style=3D"vertical-align: middle;" class=3D"confluenceTh">Linked Tickets=
+ (Task, Story, CCR)</th>
+</tr>
+<tr class=3D"">
+<td style=3D"vertical-align: middle;" class=3D"confluenceTd">Update Java to=
+ latest version</td>
+<td style=3D"vertical-align: middle;" class=3D"confluenceTd"><p><strong>Iss=
+ue:</strong> The application is using outdated versions of Java.&nbsp;<stro=
+ng>Action:</strong></p>
+<ul>
+<li>Plan and execute an upgrade to the latest stable versions of Java&nbsp;=
+</li>
+<li>Test the application thoroughly after the upgrade to ensure compatibili=
+ty and stability.</li>
+<li>Update the documentation to reflect the new versions.</li>
+</ul></td>
+<td style=3D"text-align: center;vertical-align: middle;" class=3D"confluenc=
+eTd">
+<div class=3D"content-wrapper">
+<p><a class=3D"confluence-userlink user-mention" data-username=3D"wnaveed" =
+href=3D"/wiki/display/~wnaveed" data-linked-resource-id=3D"112670010" data-=
+linked-resource-version=3D"1" data-linked-resource-type=3D"userinfo" data-b=
+ase-url=3D"https://dm.stc.com.sa/wiki">WALEED BIN NAVEED</a> <a class=3D"co=
+nfluence-userlink user-mention" data-username=3D"mwaqee" href=3D"/wiki/disp=
+lay/~mwaqee" data-linked-resource-id=3D"112670110" data-linked-resource-ver=
+sion=3D"1" data-linked-resource-type=3D"userinfo" data-base-url=3D"https://=
+dm.stc.com.sa/wiki">MUHAMMAD MUHAMMAD WAQEE</a> <a class=3D"confluence-user=
+link user-mention" data-username=3D"saynaqvi" href=3D"/wiki/display/~saynaq=
+vi" data-linked-resource-id=3D"112667915" data-linked-resource-version=3D"1=
+" data-linked-resource-type=3D"userinfo" data-base-url=3D"https://dm.stc.co=
+m.sa/wiki">SAYED MUHAMMAD ALI NAQVI</a>&nbsp;</p>
+</div></td>
+<td style=3D"text-align: center;vertical-align: middle;" class=3D"confluenc=
+eTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-subtle">OPEN</span><=
+/p>
+</div></td>
+<td style=3D"text-align: center;vertical-align: middle;" class=3D"confluenc=
+eTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+</div></td>
+<td style=3D"vertical-align: middle;" class=3D"confluenceTd"><br></td>
+</tr>
+<tr class=3D"">
+<td style=3D"vertical-align: middle;" class=3D"confluenceTd">Update sprintb=
+oot to the latest version</td>
+<td style=3D"vertical-align: middle;" class=3D"confluenceTd"><p><strong>Iss=
+ue:</strong> The application is using outdated versions of Spring Boot.&nbs=
+p;<strong>Action:</strong></p>
+<ul>
+<li>Plan and execute an upgrade to the latest stable versions of Spring Boo=
+t.</li>
+<li>Test the application thoroughly after the upgrade to ensure compatibili=
+ty and stability.</li>
+<li>Update the documentation to reflect the new versions.</li>
+</ul></td>
+<td style=3D"text-align: center;vertical-align: middle;" class=3D"confluenc=
+eTd">
+<div class=3D"content-wrapper">
+<p><a class=3D"confluence-userlink user-mention" data-username=3D"wnaveed" =
+href=3D"/wiki/display/~wnaveed" data-linked-resource-id=3D"112670010" data-=
+linked-resource-version=3D"1" data-linked-resource-type=3D"userinfo" data-b=
+ase-url=3D"https://dm.stc.com.sa/wiki">WALEED BIN NAVEED</a> <a class=3D"co=
+nfluence-userlink user-mention" data-username=3D"mwaqee" href=3D"/wiki/disp=
+lay/~mwaqee" data-linked-resource-id=3D"112670110" data-linked-resource-ver=
+sion=3D"1" data-linked-resource-type=3D"userinfo" data-base-url=3D"https://=
+dm.stc.com.sa/wiki">MUHAMMAD MUHAMMAD WAQEE</a> <a class=3D"confluence-user=
+link user-mention" data-username=3D"saynaqvi" href=3D"/wiki/display/~saynaq=
+vi" data-linked-resource-id=3D"112667915" data-linked-resource-version=3D"1=
+" data-linked-resource-type=3D"userinfo" data-base-url=3D"https://dm.stc.co=
+m.sa/wiki">SAYED MUHAMMAD ALI NAQVI</a>&nbsp;</p>
+</div></td>
+<td style=3D"text-align: center;vertical-align: middle;" class=3D"confluenc=
+eTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-subtle">OPEN</span><=
+/p>
+</div></td>
+<td style=3D"text-align: center;vertical-align: middle;" class=3D"confluenc=
+eTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+</div></td>
+<td style=3D"vertical-align: middle;" class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td style=3D"vertical-align: middle;" class=3D"confluenceTd">Implement CI/C=
+D for backend deployments</td>
+<td style=3D"vertical-align: middle;" class=3D"confluenceTd"><br></td>
+<td style=3D"text-align: center;vertical-align: middle;" class=3D"confluenc=
+eTd">
+<div class=3D"content-wrapper">
+<p><a class=3D"confluence-userlink user-mention" data-username=3D"wnaveed" =
+href=3D"/wiki/display/~wnaveed" data-linked-resource-id=3D"112670010" data-=
+linked-resource-version=3D"1" data-linked-resource-type=3D"userinfo" data-b=
+ase-url=3D"https://dm.stc.com.sa/wiki">WALEED BIN NAVEED</a> <a class=3D"co=
+nfluence-userlink user-mention" data-username=3D"mwaqee" href=3D"/wiki/disp=
+lay/~mwaqee" data-linked-resource-id=3D"112670110" data-linked-resource-ver=
+sion=3D"1" data-linked-resource-type=3D"userinfo" data-base-url=3D"https://=
+dm.stc.com.sa/wiki">MUHAMMAD MUHAMMAD WAQEE</a>&nbsp;</p>
+</div></td>
+<td style=3D"text-align: center;vertical-align: middle;" class=3D"confluenc=
+eTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-subtle">OPEN</span><=
+/p>
+</div></td>
+<td style=3D"text-align: center;vertical-align: middle;" class=3D"confluenc=
+eTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+</div></td>
+<td style=3D"vertical-align: middle;" class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td style=3D"vertical-align: middle;" class=3D"confluenceTd">Secure Configu=
+ration Management</td>
+<td style=3D"vertical-align: middle;" class=3D"confluenceTd"><p><strong>Iss=
+ue:</strong> Application properties and environment properties currently co=
+ntain credentials and sensitive information. <strong>Action:</strong></p>
+<ul>
+<li>Refactor the configuration management to fetch credentials and sensitiv=
+e information from environment variables.</li>
+<li>Ensure all environment-specific properties are securely managed using a=
+ secrets management tool.</li>
+</ul></td>
+<td style=3D"text-align: center;vertical-align: middle;" class=3D"confluenc=
+eTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+</div></td>
+<td style=3D"text-align: center;vertical-align: middle;" class=3D"confluenc=
+eTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+</div></td>
+<td style=3D"text-align: center;vertical-align: middle;" class=3D"confluenc=
+eTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+</div></td>
+<td style=3D"vertical-align: middle;" class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td style=3D"vertical-align: middle;" class=3D"confluenceTd">Code Cleanup</=
+td>
+<td style=3D"vertical-align: middle;" class=3D"confluenceTd"><p><strong>Iss=
+ue:</strong> Presence of unused code in the codebase. <strong>Action:</stro=
+ng></p>
+<ul>
+<li>Conduct a thorough code review to identify and remove all unused code.<=
+/li>
+<li>Implement a regular code cleanup schedule to prevent accumulation of un=
+used code.</li>
+</ul></td>
+<td style=3D"text-align: center;vertical-align: middle;" class=3D"confluenc=
+eTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+</div></td>
+<td style=3D"text-align: center;vertical-align: middle;" class=3D"confluenc=
+eTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+</div></td>
+<td style=3D"text-align: center;vertical-align: middle;" class=3D"confluenc=
+eTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+</div></td>
+<td style=3D"vertical-align: middle;" class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td style=3D"vertical-align: middle;" class=3D"confluenceTd">Code Formattin=
+g&nbsp;</td>
+<td style=3D"vertical-align: middle;" class=3D"confluenceTd"><p><strong>Iss=
+ue:</strong> Code does not adhere to the hard wrap line, making it harder t=
+o read and maintain. <strong>Action:</strong></p>
+<ul>
+<li>Enforce a code formatting standard that includes hard wrap lines.</li>
+<li>Utilize code formatting tools (e.g., Prettier, Checkstyle) to automatic=
+ally format the code during commits.</li>
+</ul></td>
+<td style=3D"text-align: center;vertical-align: middle;" class=3D"confluenc=
+eTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+</div></td>
+<td style=3D"text-align: center;vertical-align: middle;" class=3D"confluenc=
+eTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+</div></td>
+<td style=3D"text-align: center;vertical-align: middle;" class=3D"confluenc=
+eTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+</div></td>
+<td style=3D"vertical-align: middle;" class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td style=3D"vertical-align: middle;" class=3D"confluenceTd">Lack of proper=
+ JavaDocs for better commenting and documentation.</td>
+<td style=3D"vertical-align: middle;" class=3D"confluenceTd"><p><strong>Iss=
+ue:</strong> Lack of proper JavaDocs for better commenting and documentatio=
+n. <strong>Action:</strong></p>
+<ul>
+<li>Implement JavaDoc standards across the codebase.</li>
+<li>Ensure all public classes and methods are documented with JavaDocs.</li=
+>
+<li>Conduct code reviews to enforce JavaDoc standards.</li>
+</ul></td>
+<td style=3D"text-align: center;vertical-align: middle;" class=3D"confluenc=
+eTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+</div></td>
+<td style=3D"text-align: center;vertical-align: middle;" class=3D"confluenc=
+eTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+</div></td>
+<td style=3D"text-align: center;vertical-align: middle;" class=3D"confluenc=
+eTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+</div></td>
+<td style=3D"vertical-align: middle;" class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td style=3D"vertical-align: middle;" class=3D"confluenceTd">Branching Stra=
+tegy</td>
+<td style=3D"vertical-align: middle;" class=3D"confluenceTd"><p>The current=
+ branching strategy lacks a dedicated production branch, and releases are m=
+ade from the pre-prod branch with manual deployment changes. <strong>Action=
+:</strong></p>
+<ul>
+<li>Develop and implement a robust branching strategy, including a dedicate=
+d production branch.</li>
+<li>Use tagging for releases to ensure traceability.</li>
+<li>Automate the deployment process to minimize manual intervention and err=
+ors.</li>
+</ul></td>
+<td style=3D"text-align: center;vertical-align: middle;" class=3D"confluenc=
+eTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+</div></td>
+<td style=3D"text-align: center;vertical-align: middle;" class=3D"confluenc=
+eTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+</div></td>
+<td style=3D"text-align: center;vertical-align: middle;" class=3D"confluenc=
+eTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+</div></td>
+<td style=3D"vertical-align: middle;" class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td style=3D"vertical-align: middle;" class=3D"confluenceTd">Code Quality</=
+td>
+<td style=3D"vertical-align: middle;" class=3D"confluenceTd"><p><strong>Iss=
+ue:</strong> Presence of vulnerabilities and code smells in the codebase. <=
+strong>Action:</strong></p>
+<ul>
+<li>Integrate SonarLint or a similar tool to continuously analyze the code =
+for vulnerabilities and code smells.</li>
+<li>Set a target to achieve a clean codebase with minimal code smells and v=
+ulnerabilities.</li>
+<li>Regularly review and address issues reported by SonarLint during develo=
+pment cycles</li>
+</ul></td>
+<td style=3D"text-align: center;vertical-align: middle;" class=3D"confluenc=
+eTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+</div></td>
+<td style=3D"text-align: center;vertical-align: middle;" class=3D"confluenc=
+eTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+</div></td>
+<td style=3D"text-align: center;vertical-align: middle;" class=3D"confluenc=
+eTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+</div></td>
+<td style=3D"vertical-align: middle;" class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td style=3D"vertical-align: middle;" class=3D"confluenceTd"><br></td>
+<td style=3D"vertical-align: middle;" class=3D"confluenceTd"><br></td>
+<td style=3D"text-align: center;vertical-align: middle;" class=3D"confluenc=
+eTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+</div></td>
+<td style=3D"text-align: center;vertical-align: middle;" class=3D"confluenc=
+eTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+</div></td>
+<td style=3D"text-align: center;vertical-align: middle;" class=3D"confluenc=
+eTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+</div></td>
+<td style=3D"vertical-align: middle;" class=3D"confluenceTd"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<p><strong>Other Suggested Enhancements&nbsp;</strong></p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 99.=
+837%;">
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 34.3681%;">
+<col class=3D"" style=3D"width: 20.8063%;">
+<col class=3D"" style=3D"width: 10.5664%;">
+<col class=3D"" style=3D"width: 34.2592%;">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<th style=3D"vertical-align: middle;" class=3D"confluenceTh">Summary</th>
+<th style=3D"text-align: center;vertical-align: middle;" class=3D"confluenc=
+eTh">Assignee</th>
+<th style=3D"text-align: center;vertical-align: middle;" class=3D"confluenc=
+eTh">Status</th>
+<th style=3D"vertical-align: middle;" class=3D"confluenceTh">Linked Tickets=
+ (Task, Story, CCR)</th>
+</tr>
+<tr class=3D"">
+<td style=3D"vertical-align: middle;" class=3D"confluenceTd">Implement vali=
+dations on all forms in a similar way for consistency</td>
+<td style=3D"text-align: center;vertical-align: middle;" class=3D"confluenc=
+eTd">
+<div class=3D"content-wrapper">
+<p><a class=3D"confluence-userlink user-mention" data-username=3D"awamuhamm=
+ad" href=3D"/wiki/display/~awamuhammad" data-linked-resource-id=3D"10561845=
+0" data-linked-resource-version=3D"1" data-linked-resource-type=3D"userinfo=
+" data-base-url=3D"https://dm.stc.com.sa/wiki">Awais Ashraf Muhammad</a></p=
+>
+</div></td>
+<td style=3D"text-align: center;vertical-align: middle;" class=3D"confluenc=
+eTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-subtle">OPEN</span><=
+/p>
+</div></td>
+<td style=3D"vertical-align: middle;" class=3D"confluenceTd"><br></td>
+</tr>
+<tr class=3D"">
+<td style=3D"vertical-align: middle;" class=3D"confluenceTd">Fix environmen=
+ts ( understand all dependencies and get access for the leads where needed)=
+</td>
+<td style=3D"text-align: center;vertical-align: middle;" class=3D"confluenc=
+eTd">
+<div class=3D"content-wrapper">
+<p><a class=3D"confluence-userlink user-mention" data-username=3D"malemoor"=
+ href=3D"/wiki/display/~malemoor" data-linked-resource-id=3D"112666238" dat=
+a-linked-resource-version=3D"1" data-linked-resource-type=3D"userinfo" data=
+-base-url=3D"https://dm.stc.com.sa/wiki">Mohammad Ali Mohammad Alemoor</a> =
+<a class=3D"confluence-userlink user-mention" data-username=3D"mwaqee" href=
+=3D"/wiki/display/~mwaqee" data-linked-resource-id=3D"112670110" data-linke=
+d-resource-version=3D"1" data-linked-resource-type=3D"userinfo" data-base-u=
+rl=3D"https://dm.stc.com.sa/wiki">MUHAMMAD MUHAMMAD WAQEE</a> <a class=3D"c=
+onfluence-userlink user-mention" data-username=3D"awamuhammad" href=3D"/wik=
+i/display/~awamuhammad" data-linked-resource-id=3D"105618450" data-linked-r=
+esource-version=3D"1" data-linked-resource-type=3D"userinfo" data-base-url=
+=3D"https://dm.stc.com.sa/wiki">Awais Ashraf Muhammad</a> <a class=3D"confl=
+uence-userlink user-mention" data-username=3D"wnaveed" href=3D"/wiki/displa=
+y/~wnaveed" data-linked-resource-id=3D"112670010" data-linked-resource-vers=
+ion=3D"1" data-linked-resource-type=3D"userinfo" data-base-url=3D"https://d=
+m.stc.com.sa/wiki">WALEED BIN NAVEED</a> <a class=3D"confluence-userlink us=
+er-mention" data-username=3D"rmunahhi" href=3D"/wiki/display/~rmunahhi" dat=
+a-linked-resource-id=3D"16313590" data-linked-resource-version=3D"1" data-l=
+inked-resource-type=3D"userinfo" data-base-url=3D"https://dm.stc.com.sa/wik=
+i">Renad S. Munahhi</a>&nbsp;</p>
+</div></td>
+<td style=3D"text-align: center;vertical-align: middle;" class=3D"confluenc=
+eTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-subtle">OPEN</span><=
+/p>
+</div></td>
+<td style=3D"vertical-align: middle;" class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td style=3D"vertical-align: middle;" class=3D"confluenceTd">Load balancer,=
+ When deploying to production, Site should not go down</td>
+<td style=3D"text-align: center;vertical-align: middle;" class=3D"confluenc=
+eTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+</div></td>
+<td style=3D"text-align: center;vertical-align: middle;" class=3D"confluenc=
+eTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+</div></td>
+<td style=3D"vertical-align: middle;" class=3D"confluenceTd"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_538_274961444.1740998862304--

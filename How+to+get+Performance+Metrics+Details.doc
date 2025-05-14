@@ -1,0 +1,366 @@
+Date: Mon, 3 Mar 2025 13:46:43 +0300 (AST)
+Message-ID: <39274798.535.1740998803333@ECAOEAPPPL0008.stc.corp>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_534_1696021827.1740998803333"
+
+------=_Part_534_1696021827.1740998803333
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>How to get Performance Metrics Details</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>How to get Performance Metrics Details</h1>
+    <div class=3D"Section1">
+        <p>This document explains the way we can the get the performance me=
+trics related details:</p>
+<p><br></p>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<colgroup class=3D"">
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<td class=3D"confluenceTd"><strong>Sr. No.</strong></td>
+<td class=3D"confluenceTd"><strong>Metric</strong></td>
+<td class=3D"confluenceTd"><strong>Detail</strong></td>
+<td class=3D"confluenceTd"><strong>How to get / Command</strong></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">1</td>
+<td class=3D"confluenceTd">CPU Utilization</td>
+<td class=3D"confluenceTd">CPU utilization</td>
+<td class=3D"confluenceTd">top -b -n 1</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">2</td>
+<td class=3D"confluenceTd">Memory Utilization</td>
+<td class=3D"confluenceTd">Memory utilization</td>
+<td class=3D"confluenceTd">free -m or vmstat -s or sar -r 1 5</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">3</td>
+<td class=3D"confluenceTd">Disk Utilization</td>
+<td class=3D"confluenceTd">Disk utilization</td>
+<td class=3D"confluenceTd">iostat -dx 1 5 (part of sysstat) or df -h</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">4</td>
+<td class=3D"confluenceTd">Network bandwidth utilization</td>
+<td class=3D"confluenceTd">Network bandwidth utilization</td>
+<td class=3D"confluenceTd">sar -n DEV 1 5 or ifstat or nload</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">5</td>
+<td class=3D"confluenceTd">Heap size</td>
+<td class=3D"confluenceTd">Heap size</td>
+<td class=3D"confluenceTd">jstat -gc &lt;PID&gt;</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">6</td>
+<td class=3D"confluenceTd">Thread Created</td>
+<td class=3D"confluenceTd">Total number of threads created</td>
+<td class=3D"confluenceTd">jstat -gcutil &lt;PID&gt; or jcmd &lt;PID&gt; Th=
+read.print</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">7</td>
+<td class=3D"confluenceTd">Thread Destroyed</td>
+<td class=3D"confluenceTd">Total number of threads destroyed</td>
+<td class=3D"confluenceTd">jstat -gcutil &lt;PID&gt; or jcmd &lt;PID&gt; Th=
+read.print</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">8</td>
+<td class=3D"confluenceTd">Thread Pool/Active Threads</td>
+<td class=3D"confluenceTd">Number of concurrently active threads</td>
+<td class=3D"confluenceTd">Use jstack &lt;PID&gt; or jcmd &lt;PID&gt; Threa=
+d.print</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">9</td>
+<td class=3D"confluenceTd">Thread Pool/Pool size</td>
+<td class=3D"confluenceTd">Average number of threads in the pool</td>
+<td class=3D"confluenceTd">Use jstack &lt;PID&gt; or jcmd &lt;PID&gt; Threa=
+d.print</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">10</td>
+<td class=3D"confluenceTd">Thread Pool/Percent Maxed</td>
+<td class=3D"confluenceTd">The average percent of the time that all threads=
+ are in use</td>
+<td class=3D"confluenceTd">Use jstack &lt;PID&gt; or jcmd &lt;PID&gt; Threa=
+d.print</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">11</td>
+<td class=3D"confluenceTd">JVM Runtime/Total Memory</td>
+<td class=3D"confluenceTd">Total memory in the JVM runtime</td>
+<td class=3D"confluenceTd">jstat -gc &lt;PID&gt; or jcmd &lt;PID&gt; GC.hea=
+p_info</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">12</td>
+<td class=3D"confluenceTd">JVM Runtime/Free Memory</td>
+<td class=3D"confluenceTd">Free memory in the JVM runtime<br>
+ Used memory in the JVM runtime</td>
+<td class=3D"confluenceTd">jstat -gc &lt;PID&gt; or jcmd &lt;PID&gt; GC.hea=
+p_info</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">13</td>
+<td class=3D"confluenceTd">JDBC Connections/Concurrent Waiters</td>
+<td class=3D"confluenceTd">Number of threads that are currently waiting for=
+ db connections</td>
+<td class=3D"confluenceTd">Need to enable Spring Boot Actuator in Tuwaiq pr=
+oject to get these details.</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">14</td>
+<td class=3D"confluenceTd">JDBC Connections/Percent used</td>
+<td class=3D"confluenceTd">The average percentage of the db connection pool=
+ that is in use</td>
+<td class=3D"confluenceTd">Need to enable Spring Boot Actuator in Tuwaiq pr=
+oject to get these details.</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">15</td>
+<td class=3D"confluenceTd">JDBC Connections/Percent maxed</td>
+<td class=3D"confluenceTd">The average percentage of the time that all conn=
+ections are in use</td>
+<td class=3D"confluenceTd">Need to enable Spring Boot Actuator in Tuwaiq pr=
+oject to get these details.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_534_1696021827.1740998803333--
