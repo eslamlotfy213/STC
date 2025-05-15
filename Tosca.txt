@@ -1,0 +1,88 @@
+how to work  ?
+checkout to start working 
+checking to push your changes 
+upldate all to get all upldates froms others  
+----------------------------------------------
+how start add testcases ?
+
+Testcases folder
+    TestCases_islam folder 
+       1.Draft/In Progress  folder 
+	      Testcase 1
+	      •	Preconditions  folder 
+		    openURL 
+			Sign in 
+			Take screenshot
+          •	Process        folder
+          •	postconditions foler  
+		  
+		 
+	   2.Review    folder 
+	   3.Approve   folder
+----------------------------------------------
+how to create a configuration  ?
+go to configuration and create a new one 
+create configuration 
+add them 
+Browser Edge
+emailSMS  smsysint@tuwaiq.qa
+password  devstc@12345@@@@@@@@
+URL       https://tuwaiqpreprod.stc.com.sa/home
+----------------------------------
+how to run testcases?
+you can run scratchbook 
+
+-----------------------------------------------
+how to run it through execution ?
+go to Exeecution 
+create execution list
+drag and drop your testcases into them 
+
+-----------------------------------------------
+how to print ? 
+right click and click print Report
+
+-----------------------------------------------
+how to take screenshot ? 
+TBox Take Screenshot
+Directory 
+Filename 
+---------------------------------------
+how to sendkeys ?
+{Sendkeys[{RND[9]}]}
+{Sendkeys[{RND[9]}]}
+
+{Sendkeys[{Randomtext[6]}]}
+
+---------------------------------------
+how to add username or password ? 
+{Click}{CP[User_Request]}
+
+-------------------------------------------
+how to click on button ? 
+X
+
+-------------------------------------------
+how to closeBrowser ? 
+you can user build in html 
+closeBrowser
+Title *
+
+------------------------------------------------
+how to seach for textbox ?
+{SENDKEYS[505492446]}
+
+------------------------------------
+how to wait for element ? 
+ open the module 
+ go t elemet "select phone"
+ WaitAfter 3000
+
+
+
+
+
+
+
+
+
